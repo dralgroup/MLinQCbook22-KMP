@@ -1,0 +1,61 @@
+
+
+  !---------------------------------------------------------------------------!
+  !                                                                           !
+  !     MLatom: a Package for Atomistic Simulations with Machine Learning     !
+  !                               Version 2.0                                 !
+  !                           http://mlatom.com/                              !
+  !                                                                           !
+  !                  Copyright (c) 2013-2021 Pavlo O. Dral                    !
+  !                           http://dr-dral.com/                             !
+  !                                                                           !
+  ! All rights reserved. This work is licensed under the                      !
+  ! Attribution-NonCommercial-NoDerivatives 4.0 International                 ! 
+  ! (http://creativecommons.org/licenses/by-nc-nd/4.0/) license.              !
+  ! See LICENSE.CC-BY-NC-ND-4.0.                                              !
+  !                                                                           !
+  ! The above copyright notice and this permission notice shall be included   !
+  ! in all copies or substantial portions of the Software.                    !
+  !                                                                           !
+  ! The software is provided "as is", without warranty of any kind, express   !
+  ! or implied, including but not limited to the warranties of                !
+  ! merchantability, fitness for a particular purpose and noninfringement. In !
+  ! no event shall the authors or copyright holders be liable for any claim,  !
+  ! damages or other liability, whether in an action of contract, tort or     !
+  ! otherwise, arising from, out of or in connection with the software or the !
+  ! use or other dealings in the software.                                    !
+  !                                                                           !
+  !                                Cite as:                                   !
+  ! Pavlo O. Dral, J. Comput. Chem. 2019, 40, 2339-2347                       !
+  ! Pavlo O. Dral, Fuchun Ge, Bao-Xin Xue, Yi-Fan Hou, Max Pinheiro Jr,       !
+  ! Jianxing Huang, Mario Barbatti, Top. Curr. Chem. 2021, 379, 27            !
+  !                                                                           !
+  ! Pavlo O. Dral, Peikun Zheng, Bao-Xin Xue, Fuchun Ge, Yi-Fan Hou,          !
+  ! Max Pinheiro Jr,                                                          !
+  ! MLatom: A Package for Atomistic Simulations with Machine Learning         !
+  ! version 2.1, Xiamen University, Xiamen, China, 2013-2021                  !
+  !                                                                           !  
+  !---------------------------------------------------------------------------!
+
+
+ ============================================================================== 
+ MLatom started on 28.02.2022 at 13:48:34
+        with the following options:
+        /mlatom/software/MLatom/releases/MLatom_v2.1.0/MLatom.py opt.inp
+
+        Input file content:
+ ______________________________________________________________________________ 
+geomopt                # Request geometry optimization
+useMLmodel             # using existing ML model
+MLmodelType=KREG       # of the KREG type
+MLmodelIn=energies.unf # in energies.unf file
+xyzfile=eq.xyz         # The file with initial guess
+ ______________________________________________________________________________ 
+ ============================================================================== 
+ optprog: Gaussian 16
+
+ ============================================================================== 
+ Wall-clock time: 2.71 s (0.05 min, 0.00 hours)
+
+ MLatom terminated on 28.02.2022 at 13:48:37
+ ============================================================================== 

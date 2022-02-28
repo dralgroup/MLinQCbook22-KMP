@@ -1,0 +1,5 @@
+geomopt                # Request geometry optimization
+useMLmodel             # using existing ML model
+MLmodelType=KREG       # of the KREG type
+MLmodelIn=energies.unf # in energies.unf file
+xyzfile=eq.xyz         # The file with initial guess
